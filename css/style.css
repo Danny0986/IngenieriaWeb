@@ -212,5 +212,22 @@ body.bodylogin {
     font-weight: 600;
 }
 
-
 /*---------------------Fin Login---------------------*/
+
+@media (max-width: 450px) {
+    body.bodylogin {
+        background: #333;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 800px) {
+    body.bodylogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url(../images/angel.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
